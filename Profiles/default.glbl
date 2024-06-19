@@ -4,4 +4,9 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'APK/Solodroid_E-CommerceApp Demo_3.2.0.apk'</initValue>
+      <name>appFile</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
