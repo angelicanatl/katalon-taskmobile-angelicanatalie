@@ -19,25 +19,27 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication(GlobalVariable.appFile, false)
 
-Mobile.waitForElementNotPresent(findTestObject('Obj Spy/header/lbl_headerRecent'), 0)
-
 Mobile.verifyElementVisible(findTestObject('Obj Spy/header/lbl_headerRecent'), 0)
 
-Mobile.tap(findTestObject('Obj Spy/footer/btn_profile'), 0)
+Mobile.tap(findTestObject('Obj Spy/header/btn_headerChart'), 0)
 
-Mobile.waitForElementPresent(findTestObject('Obj Spy/page_profile/lbl_profile'), 0)
+Mobile.verifyElementVisible(findTestObject('Obj Spy/page_chart/btn_checkout'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Obj Spy/page_profile/lbl_profile'), 0)
+Mobile.tap(findTestObject('Obj Spy/page_chart/btn_checkout'), 0)
 
-Mobile.tap(findTestObject('Obj Spy/page_profile/btn_orderHistory'), 0)
+Mobile.verifyElementVisible(findTestObject('Obj Spy/page_checkout/lbl_checkoutHeader'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Obj Spy/page_orderHistory/lbl_orderId'), 0)
+Mobile.setText(findTestObject('Obj Spy/page_checkout/input_address'), 'Bandung', 0)
 
-Mobile.verifyElementVisible(findTestObject('Obj Spy/page_orderHistory/lbl_orderDate'), 0)
+Mobile.hideKeyboard()
 
-Mobile.tap(findTestObject('Obj Spy/page_orderHistory/btn_orderedPruduct'), 0)
+Mobile.tap(findTestObject('Obj Spy/page_checkout/btn_processCheckout'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Obj Spy/page_orderHistory/lbl_orderDetail'), 0)
+Mobile.tap(findTestObject('Obj Spy/reusable_obj/btn_confirmYes'), 0)
+
+Mobile.verifyElementVisible(findTestObject('Obj Spy/page_checkout/lbl_submitingOrder'), 0)
+
+Mobile.tap(findTestObject('Obj Spy/page_checkout/btn_orderOk'), 0)
 
 Mobile.closeApplication()
 
