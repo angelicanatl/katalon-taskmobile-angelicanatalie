@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TS-menuProfile</name>
+   <name>TS-helpMenu</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,26 +10,19 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>6dd0c864-737a-4b81-b17d-558ef1bfc523</testSuiteGuid>
+   <testSuiteGuid>4bad0432-6f3b-4035-97f0-851f30d923a1</testSuiteGuid>
    <testCaseLink>
-      <guid>16b52a73-344b-4bd9-a500-02300ed329b5</guid>
+      <guid>3cfb2e34-dce7-4841-af21-75eac223bc40</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC-profile/TC-editProfile</testCaseId>
+      <testCaseId>Test Cases/TC-helpMenu/TC-howToOrder</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>ab253f3c-a093-4baf-a5dd-179b2fc0639e</guid>
+      <guid>4f56a51a-3b36-44e7-b041-38e9518d6b5c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC-profile/TC-seeOrderHistory</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>2f085244-4084-4a39-a43e-8c698dddf085</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/TC-profile/TC-clearOrderHistory</testCaseId>
+      <testCaseId>Test Cases/TC-helpMenu/TC-payment</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

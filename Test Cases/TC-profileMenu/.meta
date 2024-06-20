@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <FolderEntity>
    <description></description>
-   <name>header_search</name>
+   <name>TC-profileMenu</name>
    <tag></tag>
-   <folderType>WEBELEMENT</folderType>
+   <folderType>TESTCASE</folderType>
 </FolderEntity>

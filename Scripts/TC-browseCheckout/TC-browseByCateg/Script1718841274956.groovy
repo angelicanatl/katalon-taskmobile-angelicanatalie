@@ -19,39 +19,39 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication(GlobalVariable.appFile, false)
 
-Mobile.verifyElementVisible(findTestObject('Obj Spy/footer/btn_profile'), 0)
+Mobile.verifyElementVisible(findTestObject('Obj Spy/header/lbl_headerRecent'), 0)
 
-Mobile.tap(findTestObject('Obj Spy/footer/btn_profile'), 0)
+Mobile.tap(findTestObject('Obj Spy/footer/btn_category'), 0)
 
-Mobile.waitForElementPresent(findTestObject('Obj Spy/page_profile/lbl_profile'), 0)
+Mobile.verifyElementVisible(findTestObject('Obj Spy/page_category/lbl_categ'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Obj Spy/page_profile/lbl_profile'), 0)
+Mobile.tap(findTestObject('Obj Spy/page_category/btn_categHome'), 0)
 
-Mobile.tap(findTestObject('Obj Spy/page_profile/btn_editData'), 0)
+Mobile.verifyElementVisible(findTestObject('Obj Spy/reusable_obj/img_productBrowsed'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Obj Spy/page_editProfile/lbl_profile'), 0)
+Mobile.tap(findTestObject('Obj Spy/reusable_obj/img_productBrowsed'), 0)
 
-newName = 'Angel'
+Mobile.verifyElementVisible(findTestObject('Obj Spy/page_product/lbl_productName_shelves'), 0)
 
-newEmail = 'angel@gmail.com'
+browsedProduct = Mobile.getText(findTestObject('Obj Spy/page_product/lbl_productName_shelves'), 0)
 
-Mobile.tap(findTestObject('Obj Spy/page_editProfile/lbl_name'), 0)
+Mobile.tap(findTestObject('Obj Spy/page_product/btn_addToChart'), 0)
 
-Mobile.setText(findTestObject('Obj Spy/page_editProfile/input_data'), newName, 0)
+Mobile.setText(findTestObject('Obj Spy/page_product/input_qtyProduct'), '5', 0)
 
-Mobile.tap(findTestObject('Obj Spy/page_editProfile/btn_ok'), 0)
+Mobile.tap(findTestObject('Obj Spy/page_product/btn_addQty'), 0)
 
-Mobile.tap(findTestObject('Obj Spy/page_editProfile/lbl_email'), 0)
+Mobile.tap(findTestObject('Obj Spy/page_product/btn_chart'), 0)
 
-Mobile.setText(findTestObject('Obj Spy/page_editProfile/input_data'), newEmail, 0)
+Mobile.verifyElementVisible(findTestObject('Obj Spy/page_chart/lbl_productAdded_shelves'), 0)
 
-Mobile.tap(findTestObject('Obj Spy/page_editProfile/btn_ok'), 0)
+addedProduct = Mobile.getText(findTestObject('Obj Spy/page_chart/lbl_productAdded_shelves'), 0)
 
-Mobile.pressBack()
-
-Mobile.verifyElementText(findTestObject('Obj Spy/page_profile/lbl_profileName'), newName)
-
-Mobile.verifyElementText(findTestObject('Obj Spy/page_profile/lbl_profileEmail'), newEmail)
+if (browsedProduct == addedProduct) {
+    KeywordUtil.markPassed('Product added to chart successfully.')
+} else {
+    KeywordUtil.markFailed('Added product to chart unsuccessful.')
+}
 
 Mobile.closeApplication()
 

@@ -19,23 +19,14 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication(GlobalVariable.appFile, false)
 
-Mobile.verifyElementVisible(findTestObject('Obj Spy/footer/btn_profile'), 0)
+Mobile.verifyElementVisible(findTestObject('Obj Spy/header/lbl_headerRecent'), 0)
 
-Mobile.tap(findTestObject('Obj Spy/footer/btn_profile'), 0)
+Mobile.tap(findTestObject('Obj Spy/footer/btn_help'), 0)
 
-Mobile.waitForElementPresent(findTestObject('Obj Spy/page_profile/lbl_profile'), 0)
+Mobile.verifyElementVisible(findTestObject('Obj Spy/page_help/lbl_help'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Obj Spy/page_profile/lbl_profile'), 0)
+Mobile.tap(findTestObject('Obj Spy/page_help/btn_howToOrder'), 0)
 
-Mobile.tap(findTestObject('Obj Spy/page_profile/btn_orderHistory'), 0)
-
-Mobile.verifyElementVisible(findTestObject('Obj Spy/page_orderHistory/lbl_orderId'), 0)
-
-Mobile.verifyElementVisible(findTestObject('Obj Spy/page_orderHistory/lbl_orderDate'), 0)
-
-Mobile.tap(findTestObject('Obj Spy/page_orderHistory/btn_orderedPruduct'), 0)
-
-Mobile.verifyElementVisible(findTestObject('Obj Spy/page_orderHistory/lbl_orderDetail'), 0)
+Mobile.verifyElementVisible(findTestObject('Obj Spy/page_help/lbl_howToOrder'), 0)
 
 Mobile.closeApplication()
-
