@@ -19,9 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication(GlobalVariable.appFile, false)
 
-Mobile.waitForElementPresent(findTestObject('Obj Spy/header/lbl_headerRecent'), 0)
-
-Mobile.verifyElementVisible(findTestObject('Obj Spy/header/lbl_headerRecent'), 0)
+Mobile.verifyElementVisible(findTestObject('Obj Spy/footer/btn_profile'), 0)
 
 Mobile.tap(findTestObject('Obj Spy/footer/btn_profile'), 0)
 
