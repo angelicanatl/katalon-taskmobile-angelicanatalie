@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>btn_confirmYes</name>
+   <name>lbl_productName_shelves</name>
    <tag></tag>
-   <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
+   <elementGuidId>06664cc2-2a2f-483a-8d10-8f4274826926</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -12,32 +12,32 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>android.widget.Button</value>
-      <webElementGuid>bf9ac466-f4e5-41a6-a3ed-6789087281df</webElementGuid>
+      <value>android.widget.TextView</value>
+      <webElementGuid>01b24758-15ce-428e-b972-37f1f6d2da1d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>index</name>
       <type>Main</type>
-      <value>1</value>
-      <webElementGuid>25d8f581-6f52-4fae-89c3-664e49468a0d</webElementGuid>
+      <value>0</value>
+      <webElementGuid>fef7494e-f66f-4bbe-8be4-4b548ff3a093</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>YES</value>
-      <webElementGuid>2f80733d-9f78-4515-8133-56bdd8ba0ab1</webElementGuid>
+      <value>Bathroom Toilet Wall Shelves A289</value>
+      <webElementGuid>d057f653-73a7-4983-9256-e8b68a81279c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>resource-id</name>
       <type>Main</type>
-      <value>android:id/button1</value>
-      <webElementGuid>01804bba-bb42-4bdf-a66b-6972c044be6c</webElementGuid>
+      <value>com.solodroid.solomerce:id/product_name</value>
+      <webElementGuid>0d9163c8-edee-4eb4-874c-52a6a363596a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>package</name>
       <type>Main</type>
       <value>com.solodroid.solomerce</value>
-      <webElementGuid>f43dfab1-e2ca-4187-b809-a4822e16da22</webElementGuid>
+      <webElementGuid>a4e49c27-5acb-4154-8381-82f2860a28eb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>7c0e0a80-7585-4e52-9079-1b699567b18c</webElementGuid>
+      <webElementGuid>a0b90d30-9544-4e11-95fc-db06aec5a6b8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,15 +61,15 @@
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>23e83031-4810-40e2-85bb-d77b2cde2f1b</webElementGuid>
+      <webElementGuid>3adea0b8-c14c-43ff-9ade-b44867a6ba7d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>clickable</name>
       <type>Main</type>
-      <value>true</value>
-      <webElementGuid>92031233-17ad-45ba-bd07-f85fea62e4a1</webElementGuid>
+      <value>false</value>
+      <webElementGuid>2368c6ec-c46e-4a3b-becc-f6c7a82e1a4b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,15 +77,15 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>bb808769-52b4-4bd1-b057-deece1773a86</webElementGuid>
+      <webElementGuid>fae66b43-6c2c-4688-8ee2-4a33210c6972</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>focusable</name>
       <type>Main</type>
-      <value>true</value>
-      <webElementGuid>96351ddb-2ea1-46c2-8a1f-c1513717697d</webElementGuid>
+      <value>false</value>
+      <webElementGuid>13465e15-ca1d-4e53-b6e4-4412f1eae952</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>ca8794fd-d918-4fc6-a11e-97caefb13f9b</webElementGuid>
+      <webElementGuid>9d7f02c2-ab14-43ad-b6db-4d13b3096a66</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>413144ae-f99d-4959-85f3-851b011f7496</webElementGuid>
+      <webElementGuid>78646cae-730a-4652-a8db-3aeb7076ef25</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>long-clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>a3f93e73-71ec-45d4-a190-b68aba57e176</webElementGuid>
+      <webElementGuid>ee9fb0c9-1ae3-4cbf-b834-0046a2436b90</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>7be9444b-c669-4a1a-89c6-a52a9152f1bc</webElementGuid>
+      <webElementGuid>f1751e28-f20c-464f-9693-158fb56633f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -125,47 +125,47 @@
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>5b84b927-df28-45e3-85ab-29fac129b952</webElementGuid>
+      <webElementGuid>af9e11c3-c3aa-4bc3-8668-59f4e4de043b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>x</name>
       <type>Main</type>
-      <value>777</value>
-      <webElementGuid>993376c9-4091-4e98-8f4c-168cafe09884</webElementGuid>
+      <value>84</value>
+      <webElementGuid>8f36edf7-2ea6-4260-a496-69257991701b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>1285</value>
-      <webElementGuid>fb1bf979-be67-4039-ad15-a5b1216829e3</webElementGuid>
+      <value>1047</value>
+      <webElementGuid>1ac8bdf7-1667-411d-83fd-ff370e5353ce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>width</name>
       <type>Main</type>
-      <value>192</value>
-      <webElementGuid>e0dc0d8c-a8c5-4952-89b3-fe628734a283</webElementGuid>
+      <value>936</value>
+      <webElementGuid>920ec882-fff5-4fd5-be03-8c7f785377bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>height</name>
       <type>Main</type>
-      <value>144</value>
-      <webElementGuid>be350c35-2e19-45ea-847c-294c976fb398</webElementGuid>
+      <value>201</value>
+      <webElementGuid>f9497a32-c26d-4ada-b4f6-547dbfb80a27</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>bounds</name>
       <type>Main</type>
-      <value>[777,1285][969,1429]</value>
-      <webElementGuid>7d393efc-4fdd-4aa5-80ad-b479e4e4935e</webElementGuid>
+      <value>[84,1047][1020,1248]</value>
+      <webElementGuid>d2d847f6-c6c3-4a1e-9cf4-c93c26ff9b6e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -173,16 +173,16 @@
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>3cd10cd3-8ddd-4f28-9c49-df9cd59f462a</webElementGuid>
+      <webElementGuid>83042ee2-c0ef-4bba-bed1-da3bc78d5694</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.Button[2]</value>
-      <webElementGuid>a9a8aeb6-b5ac-432e-94b7-0372c6d9c4f8</webElementGuid>
+      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.TextView[1]</value>
+      <webElementGuid>bdaecea1-7a0e-4d48-9efc-99c864837728</webElementGuid>
    </webElementProperties>
-   <locator>//*[@class = 'android.widget.Button' and (@text = 'YES' or . = 'YES') and @resource-id = 'android:id/button1']</locator>
+   <locator>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.TextView[1][count(. | //*[@class = 'android.widget.TextView' and (@text = 'Bathroom Toilet Wall Shelves A289' or . = 'Bathroom Toilet Wall Shelves A289') and @resource-id = 'com.solodroid.solomerce:id/product_name']) = count(//*[@class = 'android.widget.TextView' and (@text = 'Bathroom Toilet Wall Shelves A289' or . = 'Bathroom Toilet Wall Shelves A289') and @resource-id = 'com.solodroid.solomerce:id/product_name'])]</locator>
    <locatorStrategy>ATTRIBUTES</locatorStrategy>
 </MobileElementEntity>
